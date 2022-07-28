@@ -1,0 +1,35 @@
+{
+  "name": "nodeexpressbackendcodebase",
+  "version": "1.0.0",
+  "description": "backend api codebase,",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "npm run test",
+    "start":"nodemon --require @babel/register --require @babel/polyfill ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlouis1/nodeExpressBackendCodebase.git"
+  },
+  "author": "nlouis1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlouis1/nodeExpressBackendCodebase/issues"
+  },
+  "homepage": "https://github.com/nlouis1/nodeExpressBackendCodebase#readme",
+  "dependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/register": "^7.18.9",
+    "compression": "^1.7.4",
+    "core-js": "^3.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.3",
+    "sequelize-cli": "^6.4.1"
+  }
+}
